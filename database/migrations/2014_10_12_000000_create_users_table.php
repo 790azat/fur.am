@@ -22,6 +22,7 @@ return new class extends Migration
             $table->timestamp('phone_verified_at')->nullable();
             $table->string('password');
             $table->integer('type');
+            $table->string('avatar');
             $table->rememberToken();
             $table->timestamps();
         });
